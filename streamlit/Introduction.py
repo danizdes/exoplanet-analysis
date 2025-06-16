@@ -4,8 +4,6 @@ import streamlit as st
 # Importing pandas
 import pandas as pd
 
-import os
-
 # Markdown: Introduction
 st.write("""
 # Introduction
@@ -14,6 +12,8 @@ This project is a hackathon submission for the [Steller Gateway Quest](https://s
          
 It uses [Nasas Exoplanet Archives Planetory Systems](https://exoplanetarchive.ipac.caltech.edu/cgi-bin/TblView/nph-tblView?app=ExoTbls&config=PS) data:
 """)
+
+import os
 
 st.write("Current directory:", os.getcwd())
 st.write("Files in current directory:", os.listdir())
