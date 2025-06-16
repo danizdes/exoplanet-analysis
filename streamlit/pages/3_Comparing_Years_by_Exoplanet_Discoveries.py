@@ -10,7 +10,7 @@ st.write("""
 This is one of the simple analysis. This just counts the amount of exoplanets discovered each year in the file ```exoplanet_discoveries_by_year.ipynb``` and displays it as a bar chart:
          """)
 # Getting clean data of discovery years
-data = pd.read_csv("../data/exoplanet_discoveries_by_year.csv")
+data = pd.read_csv("data/exoplanet_discoveries_by_year.csv")
 
 # Displaying the graph using streamlits built it bar chart function
 st.bar_chart(data=data, x="disc_year", x_label="Discovery Year", y="count", y_label="Number of planets discovered")

@@ -7,7 +7,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Load data
-plain_data = pd.read_csv("../data/planet_radius_vs_mass.csv")
+plain_data = pd.read_csv("data/planet_radius_vs_mass.csv")
 
 # Cleaning and transforming the data
 data = plain_data[['pl_rade', 'pl_bmasse']].dropna()
