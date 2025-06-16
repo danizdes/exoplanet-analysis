@@ -5,7 +5,7 @@ import streamlit as st
 import pandas as pd
 
 # Load in the data
-plain_data = pd.read_csv("../data/star_vs_planet_temperature.csv")
+plain_data = pd.read_csv("../../data/star_vs_planet_temperature.csv")
 
 # Markdown: Introduction
 st.write("""
