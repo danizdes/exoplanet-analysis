@@ -13,20 +13,14 @@ This project is a hackathon submission for the [Steller Gateway Quest](https://s
 It uses [Nasas Exoplanet Archives Planetory Systems](https://exoplanetarchive.ipac.caltech.edu/cgi-bin/TblView/nph-tblView?app=ExoTbls&config=PS) data:
 """)
 
-import os
-
-st.write("Current directory:", os.getcwd())
-st.write("Files in current directory:", os.listdir())
-st.write("Files in data/:", os.listdir("data"))  # or whatever folder
-
 # Importing the bare nasa data file
-# nasa_data = pd.read_csv("planetory_systems.csv", comment="#")
+nasa_data = pd.read_csv("planetory_systems.csv", comment="#")
 
 # Importing clean data
 clean_data = pd.read_csv("../data/data.csv")
 
 # Displaying the dataframe
-# st.write(nasa_data)
+st.write(nasa_data)
 
 # Markdown: Introducing Clean data
 st.write("""
