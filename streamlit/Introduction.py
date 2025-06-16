@@ -17,7 +17,7 @@ It uses [Nasas Exoplanet Archives Planetory Systems](https://exoplanetarchive.ip
 nasa_data = pd.read_csv("planetory_systems.csv", comment="#")
 
 # Importing clean data
-clean_data = pd.read_csv("../data/data.csv")
+clean_data = pd.read_csv("data/data.csv")
 
 # Displaying the dataframe
 st.write(nasa_data)
