@@ -7,6 +7,7 @@ import pandas as pd
 # Markdown: Introduction
 st.write("""
 # Introduction   
+         
 The project aims to use [Nasa's Exoplanet Data](https://exoplanetarchive.ipac.caltech.edu/cgi-bin/TblView/nph-tblView?app=ExoTbls&config=PS) and anylizes it to make useful comparisons:
 """)
 
@@ -28,7 +29,7 @@ st.write(clean_data)
 
 # Markdown: Further Introduction
 st.write("""
-It analyses the data and converts it to useful partitions:
+It then further analyses the data and converts it to useful partitions:
 
 - ```👉 Planets Mass vs Radius: Comparing Planets Mass against Radius```
 - ```👉 Compaing Stars Temperature against it's Planets Temperature```
