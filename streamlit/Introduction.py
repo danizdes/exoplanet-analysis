@@ -31,7 +31,8 @@ st.write(clean_data)
 st.write("""
 It then further analyses the data and converts it to useful partitions:
 
-- ```👉 Planets Mass vs Radius: Comparing Planets Mass against Radius```
+- ```👉 Comparing Planets Mass against Radius```
 - ```👉 Compaing Stars Temperature against it's Planets Temperature```
 - ```👉 Comparing Years by exoplanet discoveries```
+- ```👉 Comparing the Planets Radius against it's Orbital Period```         
 """)
