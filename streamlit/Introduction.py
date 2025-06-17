@@ -8,6 +8,8 @@ import pandas as pd
 st.write("""
 # Introduction
 
+![logo](logo.png)
+         
 This project is a hackathon submission for the [Steller Gateway Quest](https://stellar-gateway-quest.devpost.com/)
          
 It uses [Nasas Exoplanet Archives Planetory Systems](https://exoplanetarchive.ipac.caltech.edu/cgi-bin/TblView/nph-tblView?app=ExoTbls&config=PS) data:
