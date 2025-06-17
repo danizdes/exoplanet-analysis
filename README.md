@@ -8,8 +8,7 @@ This project aims to use [Nasa's Exoplanet Data](https://exoplanetarchive.ipac.c
 
 # Getting Started
 
-The project uses *Streamlit* to display the data. It's currently deployed for free on [streamlit cloud]
-(https://exoplanet-analysis.streamlit.app/). Though it takes quite a while to load in the data, 
+The project uses *Streamlit* to display the data. It's currently deployed for free on [streamlit cloud](https://exoplanet-analysis.streamlit.app/). Though it takes quite a while to load in the data, 
 hosting it yourself locally might be a good idea.
 
 # Hosting it yourself
