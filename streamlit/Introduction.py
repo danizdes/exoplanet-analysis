@@ -6,13 +6,8 @@ import pandas as pd
 
 # Markdown: Introduction
 st.write("""
-# Introduction
-
-![logo](logo.png)
-         
-This project is a hackathon submission for the [Steller Gateway Quest](https://stellar-gateway-quest.devpost.com/)
-         
-It uses [Nasas Exoplanet Archives Planetory Systems](https://exoplanetarchive.ipac.caltech.edu/cgi-bin/TblView/nph-tblView?app=ExoTbls&config=PS) data:
+# Introduction   
+The project aims to use [Nasa's Exoplanet Data](https://exoplanetarchive.ipac.caltech.edu/cgi-bin/TblView/nph-tblView?app=ExoTbls&config=PS) and anylizes it to make useful comparisons:
 """)
 
 # Importing the bare nasa data file
@@ -26,7 +21,7 @@ st.write(nasa_data)
 
 # Markdown: Introducing Clean data
 st.write("""
-And uses ```analysis.ipynb``` to convert it into useful & required data:
+It uses ```analysis.ipynb``` to convert it into useful & required data:
          """)
 
 st.write(clean_data)
