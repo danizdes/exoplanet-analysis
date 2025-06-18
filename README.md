@@ -11,8 +11,11 @@ This project aims to use [Nasa's Exoplanet Data](https://exoplanetarchive.ipac.c
 The project uses *Streamlit* to display the data. It's currently deployed for free on [streamlit cloud](https://exoplanet-analysis.streamlit.app/). Though it takes quite a while to load in the data, 
 hosting it yourself locally might be a good idea.
 
-# Hosting it yourself
+# Screenshots
+![Picture 1](screenshots/1.png)
+![Picture 1](screenshots/3.png)
 
+# Hosting it yourself
 ## Setting up the repository
 Git clone the repository:
 
@@ -59,7 +62,3 @@ Now simply run this in the terminal:
  
 And there you go! You should be redirected to you're own locally 
 self-hosted  version of this app!
-
-# Screenshots
-![Picture 1](screenshots/1.png)
-![Picture 1](screenshots/3.png)
