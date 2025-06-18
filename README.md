@@ -4,16 +4,15 @@
 
 <br /><br />
 
+![Picture 1](screenshots/1.png)
+![Picture 1](screenshots/3.png)
+
 This project aims to use [Nasa's Exoplanet Data](https://exoplanetarchive.ipac.caltech.edu/cgi-bin/TblView/nph-tblView?app=ExoTbls&config=PS) and anylizes it to make useful comparisons
 
 # Getting Started
 
 The project uses *Streamlit* to display the data. It's currently deployed for free on [streamlit cloud](https://exoplanet-analysis.streamlit.app/). Though it takes quite a while to load in the data, 
 hosting it yourself locally might be a good idea.
-
-# Screenshots
-![Picture 1](screenshots/1.png)
-![Picture 1](screenshots/3.png)
 
 # Hosting it yourself
 ## Setting up the repository
