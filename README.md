@@ -2,8 +2,6 @@
 
 ![logo](logo.png)
 
-<br /><br />
-
 ![Picture 1](screenshots/1.png)
 ![Picture 1](screenshots/3.png)
 
