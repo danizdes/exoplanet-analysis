@@ -47,12 +47,15 @@ Now run all the code blocks from each notebook in this order
 * ```exoplanet_discoveries_by_year.ipynb```
 * ```planet_mass_vs_radius.ipynb```
 * ```star_vs_planet_temperature.ipynb```
+* ```planets_radius_vs_orbper.ipynb```
 
 ## Running the site
 
 Now simply run this in the terminal:
 
-```pip install -r requirements.txt```
+```streamlit run streamlit/Introduction.py```
 
+*PSS*: Ensure you're running this from the root folder! Running it by changing the directory to the streamlit folder wont work!
+ 
 And there you go! You should be redirected to you're own locally 
 self-hosted  version of this app!
