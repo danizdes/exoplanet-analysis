@@ -59,3 +59,7 @@ Now simply run this in the terminal:
  
 And there you go! You should be redirected to you're own locally 
 self-hosted  version of this app!
+
+# Screenshots
+![Picture 1](screenshots/1.png)
+![Picture 1](screenshots/3.png)
